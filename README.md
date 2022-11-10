@@ -2,6 +2,21 @@
 
 [Link to Zindi Challenge Page](https://zindi.africa/competitions/swahili-audio-classification)
 
-The goal of the Swahili Audio Classification challenge is to classify 12 swahili words recorded in wav-files.
+The goal of the Swahili Audio Classification challenge is to classify 12 swahili words recorded in wav-files. The words and english translations are shown below.
 
-My solution to the challenge is presented in this repo.
+| Swahili |	English |
+| --- | --- |
+| ndio |	yes |
+| hapana |	no |
+| moja |	one |
+| mbili |	two |
+| tatu |	three |
+| nne |	four |
+| tano |	five |
+| sita |	six |
+| saba |	seven |
+| nane |	eight |
+| tisa |	nine |
+| kumi |	ten |
+
+A short introduction to the data is shown in the notebook "EDA.ipynb". 'Model_torchaudio.ipynb' contains the pytorch model including preprocessing, training and testing the model. A pretrained resnet18 model is used.

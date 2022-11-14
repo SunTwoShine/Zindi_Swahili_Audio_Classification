@@ -19,4 +19,4 @@ The goal of the Swahili Audio Classification challenge is to classify 12 swahili
 | tisa |	nine |
 | kumi |	ten |
 
-A short introduction to the data is shown in the notebook "EDA.ipynb". 'Model_torchaudio.ipynb' contains the pytorch model including preprocessing, training and testing the model. A pretrained resnet18 model is used. This model can be either trained with normal spectrograms or mel spectrograms as preprocessing. Preprocessing using the mel spectrogram scored 0.168465426 and reached **rank 16** of 40.
+A short introduction to the data is shown in the notebook "EDA.ipynb". 'Model_torchaudio.ipynb' contains the pytorch model including preprocessing, training and testing the model. A pretrained resnet18 model is used. This model can be either trained with normal spectrograms or mel spectrograms as preprocessing. Preprocessing using the mel spectrogram scored 0.168465426 (logloss) and reached **rank 16** of 40.
